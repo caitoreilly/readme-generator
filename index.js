@@ -102,6 +102,19 @@ const questions = [
   },
   {
     type: "input",
+    name: "tests",
+    message: "Please write any tests you have for your application and provide examples on how to run them here.",
+    validate: (testsInput) => {
+        if (testsInput) {
+            return true;
+        } else {
+            console.log("Please write any tests you have for your application and how to run them here.");
+            return false;
+        }
+    }
+  },
+  {
+    type: "input",
     name: "username",
     message: "Enter your GitHub username:",
     validate: (usernameInput) => {
