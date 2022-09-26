@@ -1,9 +1,9 @@
-# weather-dashboard
-  undefined
+# ss
+  
 
 ## Description
 
-this app displays the current weather in your area as well as a five day forecast
+dd
 
 
 ## Table of Contents
@@ -18,28 +18,28 @@ this app displays the current weather in your area as well as a five day forecas
 
 ## Installation
 
-here are the steps
+cc
 
 ## Usage
 
-here are the instructions
+ff
 
 
 ## Contributing
 
-cait
+gg
 
 ## License
 
-MIT
+This application is covered under the license None.
 
 
 ## Tests
 
-here are the tests and examples
+ll
 
 ## Questions
 
-If you have any questions about this project, please feel free to contact me directly via email at coreilly29@gmail.com.
-You can also view my additional projects at https://github.com/caitoreilly.
+If you have any questions about this project, please feel free to contact me directly via email at nn.
+You can also view my additional projects at https://github.com/mm.
 

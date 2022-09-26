@@ -82,7 +82,6 @@ const questions = [
     name: "license",
     message: "What type of license would you like to include?",
     choices: [
-      "Academic",
       "Apache",
       "Eclipse",
       "GNU",
