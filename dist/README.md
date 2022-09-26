@@ -1,34 +1,9 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  if (license === "Apache") {
-    return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-  }
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-  console.log(license);
-  if (license) {
-    return "- [License](#license)";
-  } else {
-    return "";
-  }
-}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.projectTitle}
-  ${renderLicenseBadge(data.license)}
+# grie
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
 
-${data.description}
+dfhfjf
 
 
 ## Table of Contents
@@ -37,15 +12,15 @@ ${data.description}
 - [Usage](#usage)
 - [Contributing](#contributing)
 
-${renderLicenseLink(data.license)}
+- [License](#license)
 
 ## Installation
 
-${data.installation}
+dhjdd
 
 ## Usage
 
-${data.usage}
+djhdd
 
 
 ## Contributing
@@ -82,7 +57,3 @@ If you created an application or package and would like other developers to cont
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
-`;
-}
-
-module.exports = generateMarkdown;
