@@ -81,15 +81,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "What type of license would you like to include?",
-    choices: [
-      "Apache",
-      "Eclipse",
-      "GNU",
-      "ISC",
-      "MIT",
-      "Mozilla",
-      "None",
-    ],
+    choices: ["Apache", "Eclipse", "GNU", "ISC", "MIT", "Mozilla", "None"],
     when: ({ confirmLicense }) => {
       if (confirmLicense) {
         return true;
@@ -102,15 +94,18 @@ const questions = [
   {
     type: "input",
     name: "tests",
-    message: "Please write any tests you have for your application and provide examples on how to run them here.",
+    message:
+      "Please write any tests you have for your application and provide examples on how to run them here.",
     validate: (testsInput) => {
-        if (testsInput) {
-            return true;
-        } else {
-            console.log("Please write any tests you have for your application and how to run them here.");
-            return false;
-        }
-    }
+      if (testsInput) {
+        return true;
+      } else {
+        console.log(
+          "Please write any tests you have for your application and how to run them here."
+        );
+        return false;
+      }
+    },
   },
   {
     type: "input",
@@ -142,19 +137,19 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    
-fs.writeFile(fileName, data, (err) => {
-       console.log(err);
-    
-})}
+  fs.writeFile(fileName, data, (err) => {
+    console.log(err);
+  });
+  console.log("Success! You will find your README file in the dist folder.");
+}
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then(answers => {
-        console.log(answers);
-        const data = generateMarkdown(answers);
-        writeToFile("./dist/README.md", data);
-    });
+  inquirer.prompt(questions).then((answers) => {
+    console.log(answers);
+    const data = generateMarkdown(answers);
+    writeToFile("./dist/README.md", data);
+  });
 }
 
 // Function call to initialize app
