@@ -13,6 +13,7 @@ This README generator is a command-line application that dynamically creates a p
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [Demonstration](#demonstration)
 - [Contributing](#contributing)
 - [Questions](#questions)
 
@@ -53,6 +54,12 @@ Please follow the steps outlined below for how to use the command-line applicati
 ---
 
 This application is covered under the license MIT.
+
+## Demonstration 
+
+---
+
+You can view this [video tutorial](https://drive.google.com/file/d/1Rq-rozdnjBpf674dFKjEwz2z9I5lg23I/view?usp=sharing) that demonstrates how to use the README Generator command-line application. 
 
 ## Contributing
 
