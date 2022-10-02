@@ -12,8 +12,8 @@ This README generator is a command-line application that dynamically creates a p
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Demonstration](#demonstration)
+- [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
 
@@ -35,10 +35,6 @@ Please follow the steps outlined below to install this project and get the devel
 
 ---
 
-- put the video gif here
-
-Here is the [link]() to the full video tutorial on how to use this program.
-
 Please follow the steps outlined below for how to use the command-line application once all of the necessary programs and npm packages are installed:
 
 1. To begin using the application, run "node index.js" in the command line. This will tell Node.js runtime to read the index.js file's code and execute it.
@@ -49,17 +45,17 @@ Please follow the steps outlined below for how to use the command-line applicati
 
 4. You can find your newly generated README.md file in the dist folder of the repository in VS Code. You can open it up to view it and you can right click to preview it as well. You will see all of your responses in their corresponding sections of the file. You can click on the various sections included in the Table of Contents to bring you to that particular section.
 
+## Demonstration
+
+---
+
+You can view this [video tutorial](https://drive.google.com/file/d/1Rq-rozdnjBpf674dFKjEwz2z9I5lg23I/view?usp=sharing) which demonstrates how to use the README Generator command-line application step by step.
+
 ## License
 
 ---
 
 This application is covered under the license MIT.
-
-## Demonstration 
-
----
-
-You can view this [video tutorial](https://drive.google.com/file/d/1Rq-rozdnjBpf674dFKjEwz2z9I5lg23I/view?usp=sharing) that demonstrates how to use the README Generator command-line application. 
 
 ## Contributing
 
